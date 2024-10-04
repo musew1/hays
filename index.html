@@ -27,14 +27,16 @@ video {
 </style>
 </head>
 
-<audio id="mymusic" src="music.mp3" autoplay>
+<audio id="mymusic" src="music.mp3">
 </audio>
 
 <video autoplay muted loop>
     <source src="video.mp4" type="video/mp4">
 </video>
 
-<IMG style="width: 7%;" SRC="heart.gif" class="center">.
+<a onclick="document.getElementById('mymusic').play();">
+    <img style="width: 7%;" src="heart.gif" class="center">
+</a>
     
       <div class="bgimg w3-animate-opacity w3-text-black">
         <div class="w3-display-middle ">
